@@ -118,6 +118,10 @@ def health():
     return {"status": "ok"}
 
 
+# Initialize the database when the application starts.
+# This is required when running with Gunicorn on Render.
+init_db()
+
+
 if __name__ == "__main__":
-    init_db()
     app.run(debug=True)
