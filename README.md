@@ -10,7 +10,9 @@ A simple web-based Student Task Manager built using Python and Flask.
 
 
 
-\- Add tasks
+\- Add new tasks
+
+\- View tasks
 
 \- Edit tasks
 
@@ -18,17 +20,19 @@ A simple web-based Student Task Manager built using Python and Flask.
 
 \- Mark tasks as completed
 
-\- SQLite database
+\- Store tasks using SQLite
 
-\- Automated testing with pytest
+\- Automated testing using pytest
 
-\- GitHub Actions CI
+\- Continuous Integration using GitHub Actions
 
-\- Gunicorn deployment
+\- Deployment using Gunicorn
+
+\- Health check endpoint
 
 
 
-\## Technologies
+\## Technologies Used
 
 
 
@@ -50,21 +54,41 @@ A simple web-based Student Task Manager built using Python and Flask.
 
 
 
-\## How to Run
+\## Project Structure
 
 
 
-Install the dependencies:
+```text
 
+student-task-manager/
 
+├── app.py
 
-pip install -r requirements.txt
+├── requirements.txt
 
+├── tasks.db
 
+├── README.md
 
-Run the application:
+├── .gitignore
 
+├── templates/
 
+│   ├── index.html
 
-python app.py
+│   └── edit.html
+
+├── static/
+
+│   └── style.css
+
+├── tests/
+
+│   └── test\_app.py
+
+└── .github/
+
+&#x20;   └── workflows/
+
+&#x20;       └── main.yml
 
