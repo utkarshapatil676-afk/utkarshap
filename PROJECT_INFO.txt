@@ -1,0 +1,22 @@
+Student Task Manager
+====================
+
+Project: Cloud Computing and DevOps CCA 2
+
+Technology:
+Python, Flask, SQLite, HTML, CSS
+
+CI/CD:
+GitHub Actions
+
+Testing:
+Pytest
+
+Deployment:
+Gunicorn
+
+Application:
+Student Task Manager
+
+Health Check:
+/health
